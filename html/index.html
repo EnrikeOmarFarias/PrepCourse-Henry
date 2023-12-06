@@ -3,25 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
     <title>Mi primer pagina web</title>
   </head>
   <body>
     <header>
-      <h1>Este es el titulo principal de mi pagina web</h1>
-
-      <span>HOME</span>
-      <span>NOTICIAS</span>
-      <span>CLIMA</span>
+      <div class="titulos">
+        <h1 class="title" id="principal">Mi pagina personal</h1>
+        <h2>kike crack</h2>
+      </div>
     </header>
 
     <main>
-      <img src="" alt="" />
-
       <section>
         <article>
-          <h2>Este es el titulo secundario de una seccion</h2>
-          <h3>ESta es la noticia numero 1</h3>
           <div>
+            <h3 class="title">Fullstack Developer</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Perferendis quibusdam incidunt, reprehenderit modi, obcaecati
@@ -34,20 +32,28 @@
         <hr />
 
         <article>
-          <h2>Este es el titulo secundario de una seccion</h2>
-          <h3>Esta es la noticia numero 2</h3>
-          <ol>
-            <li>Este es el item 1</li>
-            <li>Este es el item 2</li>
-            <li>Este es el item 3</li>
-            <li>Este es el item 4</li>
-          </ol>
+          <div id="cards-container">
+            <div class="cards">
+              <h4 class="title">HTML</h4>
+              <img src="/img/imghtml.png" alt="logo" class="img_logo" />
+            </div>
+
+            <div class="cards">
+              <h4 class="title">CSS</h4>
+              <img src="/img/imagencss.png" alt="logo" class="img_logo" />
+            </div>
+
+            <div class="cards">
+              <h4 class="title">JAVASCRIPT</h4>
+              <img src="/img/imagenjs.png" alt="logo" class="img_logo" />
+            </div>
+          </div>
         </article>
 
         <hr />
 
         <article>
-          <h3>Esta es la noticia numero 3</h3>
+          <h3 class="title">Esta es la noticia numero 3</h3>
           <p>ESte listado de cosas no estara ordenado</p>
 
           <ul>
